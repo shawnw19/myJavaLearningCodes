@@ -1,4 +1,5 @@
 package Chp00;
+//nested class and overloaded constructors to eliminate the complexity of the constructor parameters
 
 //the principles are based on NeuralNetConfiguration class in Deeplearning4j:
 // to show a cascade of overloaded constructors which are used to "configure" an object avoiding large amounts of parameters
