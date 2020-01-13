@@ -17,8 +17,8 @@ public class AccountReflectionProxy {
 
         try{
             if (param!=null){
-                //here I made an ad hoc workaround to avoid evaluate
-                //the class type of primitive
+                //here I made a workaround to avoid evaluating
+                //the class type of any primitive types
                 //as here it is known in advance that
                 //the method parameter will be only double unless null
                 Method method=cls.getMethod(methodName,double.class);
