@@ -13,13 +13,13 @@ public class ReflectTest {
         birdList[0]= new Brid1();
         birdList[1]= new Brid2();
         birdList[2]= new Brid3();
-        Refeclt.callDraw(birdList[0]);
-        Refeclt.callDraw(birdList[1]);
-        Refeclt.callDraw(birdList[2]);
+        Reflect.callDraw(birdList[0]);
+        Reflect.callDraw(birdList[1]);
+        Reflect.callDraw(birdList[2]);
     }
 }
 
-class Refeclt{
+class Reflect {
     public static void callDraw(Object birdObj){
         Class cls = birdObj.getClass();
         try{
