@@ -27,7 +27,7 @@ public class CantorDiagonal {
     public static int compute(int numOfDigits){
         boolean addable = true;
         int count2=0;
-        while (count2<5){
+        while (addable){
             num = "0.";
             int ptr = (list.size()<=numOfDigits)? 0 :(list.size()-numOfDigits);//list index pointer
             int ptr2 = numOfDigits-(list.size()-ptr)+2;//0to9 string index pointer
@@ -41,10 +41,8 @@ public class CantorDiagonal {
                     num += "0";
                 }
             }
-            /*if ((count>1000) || list.contains(num)){
-                addable = false;*/
             if (list.contains(num)){
-                count2 += 1;
+                addable = false;
                 System.out.println("Repeat: "+num);
             }else {
                 list.add(num);
@@ -72,3 +70,16 @@ public class CantorDiagonal {
 
     }
 }
+
+/*
+0.2856842736 pi
+
+0.8614131413 ee
+
+0.5648753463 st
+
+0.6222222222 fi
+
+0.7333333333 gi
+
+0.1234567801 hi*/
