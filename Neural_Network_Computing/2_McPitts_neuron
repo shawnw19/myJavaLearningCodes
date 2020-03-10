@@ -1,0 +1,89 @@
+Please enter weight 1:  0.5
+Please enter weight 2:  0.5
+Please enter the threshold: 1
+       inputs
+    X1      X2     output
+    0       0      0
+    0       1      0
+    1       0      0
+    1       1      1
+
+Please enter weight 1:  0.5
+Please enter weight 2:  0.5
+Please enter the threshold: 0
+       inputs
+    X1      X2     output
+    0       0      1
+    0       1      1
+    1       0      1
+    1       1      1
+
+Please enter weight 1:  0.2
+Please enter weight 2:  0.8
+Please enter the threshold: 1
+       inputs
+    X1      X2     output
+    0       0      0
+    0       1      0
+    1       0      0
+    1       1      1
+
+Please enter weight 1:  0.3
+Please enter weight 2:  0.7
+Please enter the threshold: 1
+       inputs
+    X1      X2     output
+    0       0      0
+    0       1      0
+    1       0      0
+    1       1      1
+
+Please enter weight 1:  0.4
+Please enter weight 2:  0.6
+Please enter the threshold: 1
+       inputs
+    X1      X2     output
+    0       0      0
+    0       1      0
+    1       0      0
+    1       1      1
+
+Please enter weight 1:  0.499
+Please enter weight 2:  0.511
+Please enter the threshold: 1
+       inputs
+    X1      X2     output
+    0       0      0
+    0       1      0
+    1       0      0
+    1       1      1
+
+Please enter weight 1:  0.5
+Please enter weight 2:  0.5
+Please enter the threshold: 0.5
+       inputs
+    X1      X2     output
+    0       0      0
+    0       1      1
+    1       0      1
+    1       1      1
+
+Please enter weight 1:  0.4
+Please enter weight 2:  0.6
+Please enter the threshold: 0.5
+       inputs
+    X1      X2     output
+    0       0      0
+    0       1      1
+    1       0      0
+    1       1      1
+
+Please enter weight 1:  0.5
+Please enter weight 2:  0.5
+Please enter the threshold: 0.7
+       inputs
+    X1      X2     output
+    0       0      0
+    0       1      0
+    1       0      0
+    1       1      1
