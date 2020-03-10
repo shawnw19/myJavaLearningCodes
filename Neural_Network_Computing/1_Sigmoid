@@ -1,0 +1,99 @@
+The gain of the sigmoid function is k.
+Please type in the value of k (<=100):
+0.5
+IN= -5.00  OUT=0.0759 |   +
+IN= -4.50  OUT=0.0953 |    +
+IN= -4.00  OUT=0.1192 |     +
+IN= -3.50  OUT=0.1480 |      +
+IN= -3.00  OUT=0.1824 |       +
+IN= -2.50  OUT=0.2227 |         +
+IN= -2.00  OUT=0.2689 |           +
+IN= -1.50  OUT=0.3208 |             +
+IN= -1.00  OUT=0.3775 |               +
+IN= -0.50  OUT=0.4378 |                  +
+IN=  0.00  OUT=0.5000 |                    +
+IN=  0.50  OUT=0.5622 |                      +
+IN=  1.00  OUT=0.6225 |                         +
+IN=  1.50  OUT=0.6792 |                           +
+IN=  2.00  OUT=0.7311 |                             +
+IN=  2.50  OUT=0.7773 |                               +
+IN=  3.00  OUT=0.8176 |                                 +
+IN=  3.50  OUT=0.8520 |                                  +
+IN=  4.00  OUT=0.8808 |                                   +
+IN=  4.50  OUT=0.9047 |                                    +
+IN=  5.00  OUT=0.9241 |                                     +
+
+The gain of the sigmoid function is k.
+Please type in the value of k (<=100):
+1
+IN= -5.00  OUT=0.0067 |+
+IN= -4.50  OUT=0.0110 |+
+IN= -4.00  OUT=0.0180 | +
+IN= -3.50  OUT=0.0293 | +
+IN= -3.00  OUT=0.0474 |  +
+IN= -2.50  OUT=0.0759 |   +
+IN= -2.00  OUT=0.1192 |     +
+IN= -1.50  OUT=0.1824 |       +
+IN= -1.00  OUT=0.2689 |           +
+IN= -0.50  OUT=0.3775 |               +
+IN=  0.00  OUT=0.5000 |                    +
+IN=  0.50  OUT=0.6225 |                         +
+IN=  1.00  OUT=0.7311 |                             +
+IN=  1.50  OUT=0.8176 |                                 +
+IN=  2.00  OUT=0.8808 |                                   +
+IN=  2.50  OUT=0.9241 |                                     +
+IN=  3.00  OUT=0.9526 |                                      +
+IN=  3.50  OUT=0.9707 |                                       +
+IN=  4.00  OUT=0.9820 |                                       +
+IN=  4.50  OUT=0.9890 |                                        +
+IN=  5.00  OUT=0.9933 |                                        +
+
+The gain of the sigmoid function is k.
+Please type in the value of k (<=100):
+5
+IN= -5.00  OUT=0.0000 |+
+IN= -4.50  OUT=0.0000 |+
+IN= -4.00  OUT=0.0000 |+
+IN= -3.50  OUT=0.0000 |+
+IN= -3.00  OUT=0.0000 |+
+IN= -2.50  OUT=0.0000 |+
+IN= -2.00  OUT=0.0000 |+
+IN= -1.50  OUT=0.0006 |+
+IN= -1.00  OUT=0.0067 |+
+IN= -0.50  OUT=0.0759 |   +
+IN=  0.00  OUT=0.5000 |                    +
+IN=  0.50  OUT=0.9241 |                                     +
+IN=  1.00  OUT=0.9933 |                                        +
+IN=  1.50  OUT=0.9994 |                                        +
+IN=  2.00  OUT=1.0000 |                                        +
+IN=  2.50  OUT=1.0000 |                                        +
+IN=  3.00  OUT=1.0000 |                                        +
+IN=  3.50  OUT=1.0000 |                                        +
+IN=  4.00  OUT=1.0000 |                                        +
+IN=  4.50  OUT=1.0000 |                                        +
+IN=  5.00  OUT=1.0000 |                                        +
+
+The gain of the sigmoid function is k.
+Please type in the value of k (<=100):
+10
+IN= -5.00  OUT=0.0000 |+
+IN= -4.50  OUT=0.0000 |+
+IN= -4.00  OUT=0.0000 |+
+IN= -3.50  OUT=0.0000 |+
+IN= -3.00  OUT=0.0000 |+
+IN= -2.50  OUT=0.0000 |+
+IN= -2.00  OUT=0.0000 |+
+IN= -1.50  OUT=0.0000 |+
+IN= -1.00  OUT=0.0000 |+
+IN= -0.50  OUT=0.0067 |+
+IN=  0.00  OUT=0.5000 |                    +
+IN=  0.50  OUT=0.9933 |                                        +
+IN=  1.00  OUT=1.0000 |                                        +
+IN=  1.50  OUT=1.0000 |                                        +
+IN=  2.00  OUT=1.0000 |                                        +
+IN=  2.50  OUT=1.0000 |                                        +
+IN=  3.00  OUT=1.0000 |                                        +
+IN=  3.50  OUT=1.0000 |                                        +
+IN=  4.00  OUT=1.0000 |                                        +
+IN=  4.50  OUT=1.0000 |                                        +
+IN=  5.00  OUT=1.0000 |                                        +
