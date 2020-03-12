@@ -1,0 +1,306 @@
+Type in the correct response for these inputs 0 0 :0
+Type in the correct response for these inputs 1 0 :1
+Type in the correct response for these inputs 0 1 :1
+Type in the correct response for these inputs 1 1 :1
+The initial weights are 0.885179 0.817419 0.553015 .
+What is the value of your correction factor? :0.1
+test inputs 0 0, response 1, correct response 0.
+New initial weights are 0.885179 0.817419 0.453015
+test inputs 0 1, response 1, correct response 1.
+No adjustment necessary.
+test inputs 0 0, response 1, correct response 1.
+No adjustment necessary.
+test inputs 0 1, response 1, correct response 1.
+No adjustment necessary.
+The final weights are 0.885179 0.817419 0.453015
+
+Type in the correct response for these inputs 0 0 :1
+Type in the correct response for these inputs 1 0 :0
+Type in the correct response for these inputs 0 1 :0
+Type in the correct response for these inputs 1 1 :0
+The initial weights are 0.58 0.60 0.51 .
+What is the value of your correction factor? :0.1
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.48 0.60 0.41
+test inputs 0 0, response 1, correct response 0.
+New initial weights are 0.48 0.50 0.31
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.38 0.40 0.21
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.28 0.40 0.11
+test inputs 0 0, response 1, correct response 0.
+New initial weights are 0.28 0.30 0.01
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.18 0.20 -0.09
+test inputs 0 0, response 0, correct response 1.
+New initial weights are 0.18 0.20 0.01
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.08 0.20 -0.09
+test inputs 0 0, response 1, correct response 0.
+New initial weights are 0.08 0.10 -0.19
+test inputs 0 1, response 0, correct response 0.
+
+No adjustment necessary.
+The final weights are 0.080424 0.104961 -0.194539
+
+Type in the correct response for these inputs 0 0 :0
+Type in the correct response for these inputs 1 0 :0
+Type in the correct response for these inputs 0 1 :0
+Type in the correct response for these inputs 1 1 :1
+The initial weights are 0.64 0.95 0.41 .
+What is the value of your correction factor? :0.05
+test inputs 0 0, response 1, correct response 0.
+New initial weights are 0.64 0.95 0.36
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.59 0.95 0.31
+test inputs 0 0, response 1, correct response 0.
+New initial weights are 0.59 0.90 0.26
+test inputs 0 1, response 1, correct response 1.
+
+No adjustment necessary.
+
+The final weights are 0.59 0.90 0.26
+
+//XNOR/exclusive nor
+Type in the correct response for these inputs 0 0 :1
+Type in the correct response for these inputs 1 0 :0
+Type in the correct response for these inputs 0 1 :0
+Type in the correct response for these inputs 1 1 :1
+The initial weights are 0.71 0.96 0.35 .
+What is the value of your correction factor? :0.05
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.66 0.96 0.30
+test inputs 0 0, response 1, correct response 0.
+New initial weights are 0.66 0.91 0.25
+test inputs 0 1, response 1, correct response 1.
+
+No adjustment necessary.
+
+The final weights are 0.66 0.91 0.25
+
+//converse of "imply"
+Type in the correct response for these inputs 0 0 :0
+Type in the correct response for these inputs 1 0 :1
+Type in the correct response for these inputs 0 1 :0
+Type in the correct response for these inputs 1 1 :1
+The initial weights are 0.46 0.05 0.47 .
+What is the value of your correction factor? :0.03
+test inputs 0 0, response 1, correct response 0.
+New initial weights are 0.46 0.05 0.44
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 0.
+New initial weights are 0.46 0.02 0.41
+test inputs 0 1, response 1, correct response 1.
+
+No adjustment necessary.
+
+The final weights are 0.46 0.02 0.41
+
+//NAND, not and
+
+Type in the correct response for these inputs 0 0 :1
+Type in the correct response for these inputs 1 0 :1
+Type in the correct response for these inputs 0 1 :1
+Type in the correct response for these inputs 1 1 :0
+The initial weights are 0.84 0.63 0.55 .
+What is the value of your correction factor? :0.03
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.81 0.60 0.52
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.78 0.57 0.49
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.75 0.54 0.46
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.72 0.51 0.43
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.69 0.48 0.40
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.66 0.45 0.37
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.63 0.42 0.34
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.60 0.39 0.31
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.57 0.36 0.28
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.54 0.33 0.25
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.51 0.30 0.22
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.48 0.27 0.19
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.45 0.24 0.16
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.42 0.21 0.13
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.39 0.18 0.10
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.36 0.15 0.07
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.33 0.12 0.04
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.30 0.09 0.01
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.27 0.06 -0.02
+test inputs 0 0, response 0, correct response 1.
+New initial weights are 0.27 0.06 0.01
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.24 0.03 -0.02
+test inputs 0 0, response 0, correct response 1.
+New initial weights are 0.24 0.03 0.01
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.21 0.00 -0.02
+test inputs 0 0, response 0, correct response 1.
+New initial weights are 0.21 0.00 0.01
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.18 -0.03 -0.02
+test inputs 0 0, response 0, correct response 1.
+New initial weights are 0.18 -0.03 0.01
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 0, correct response 1.
+New initial weights are 0.18 0.00 0.04
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.15 -0.03 0.01
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 0, correct response 1.
+New initial weights are 0.15 0.00 0.04
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.12 -0.03 0.01
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 0, correct response 1.
+New initial weights are 0.12 0.00 0.04
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.09 -0.03 0.01
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 0, correct response 1.
+New initial weights are 0.09 0.00 0.04
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.06 -0.03 0.01
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 0, correct response 1.
+New initial weights are 0.06 0.00 0.04
+test inputs 0 1, response 1, correct response 0.
+New initial weights are 0.03 -0.03 0.01
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 0, correct response 1.
+New initial weights are 0.03 0.00 0.04
+test inputs 0 1, response 1, correct response 0.
+New initial weights are -0.00 -0.03 0.01
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 0, correct response 1.
+New initial weights are -0.00 0.00 0.04
+test inputs 0 1, response 1, correct response 0.
+New initial weights are -0.03 -0.03 0.01
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 0, correct response 1.
+New initial weights are -0.00 -0.03 0.04
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 0.
+New initial weights are -0.03 -0.06 0.01
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 0, correct response 1.
+New initial weights are -0.00 -0.06 0.04
+test inputs 0 0, response 0, correct response 1.
+New initial weights are -0.00 -0.03 0.07
+test inputs 0 1, response 1, correct response 0.
+New initial weights are -0.03 -0.06 0.04
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 1, correct response 1.
+test inputs 0 0, response 0, correct response 1.
+New initial weights are -0.03 -0.03 0.07
+test inputs 0 1, response 1, correct response 0.
+New initial weights are -0.06 -0.06 0.04
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 0, correct response 1.
+New initial weights are -0.03 -0.06 0.07
+test inputs 0 0, response 1, correct response 1.
+test inputs 0 1, response 0, correct response 0.
+
+No adjustment necessary.
+
+The final weights are -0.03 -0.06 0.07
+
+//XOR -
+Type in the correct response for these inputs 0 0 :0
+Type in the correct response for these inputs 1 0 :1
+Type in the correct response for these inputs 0 1 :1
+Type in the correct response for these inputs 1 1 :0
+The initial weights are 0.31 0.54 0.05 .
+
+.....................
+........
+Unsolvable by single neuron.
+
+//XNOR unsolvable
