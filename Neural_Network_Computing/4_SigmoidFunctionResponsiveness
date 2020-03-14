@@ -1,0 +1,93 @@
+What do you wish to use for h? 0.1
+IN= -5.00  OUT=0.0067   increase/h=0.0070  OUT*(1-OUT)=0.0066
+IN= -4.50  OUT=0.0110   increase/h=0.0114  OUT*(1-OUT)=0.0109
+IN= -4.00  OUT=0.0180   increase/h=0.0185  OUT*(1-OUT)=0.0177
+IN= -3.50  OUT=0.0293   increase/h=0.0298  OUT*(1-OUT)=0.0285
+IN= -3.00  OUT=0.0474   increase/h=0.0473  OUT*(1-OUT)=0.0452
+IN= -2.50  OUT=0.0759   increase/h=0.0731  OUT*(1-OUT)=0.0701
+IN= -2.00  OUT=0.1192   increase/h=0.1091  OUT*(1-OUT)=0.1050
+IN= -1.50  OUT=0.1824   increase/h=0.1539  OUT*(1-OUT)=0.1491
+IN= -1.00  OUT=0.2689   increase/h=0.2011  OUT*(1-OUT)=0.1966
+IN= -0.50  OUT=0.3775   increase/h=0.2377  OUT*(1-OUT)=0.2350
+IN=  0.00  OUT=0.5000   increase/h=0.2498  OUT*(1-OUT)=0.2500
+IN=  0.50  OUT=0.6225   increase/h=0.2320  OUT*(1-OUT)=0.2350
+IN=  1.00  OUT=0.7311   increase/h=0.1920  OUT*(1-OUT)=0.1966
+IN=  1.50  OUT=0.8176   increase/h=0.1444  OUT*(1-OUT)=0.1491
+IN=  2.00  OUT=0.8808   increase/h=0.1011  OUT*(1-OUT)=0.1050
+IN=  2.50  OUT=0.9241   increase/h=0.0672  OUT*(1-OUT)=0.0701
+IN=  3.00  OUT=0.9526   increase/h=0.0432  OUT*(1-OUT)=0.0452
+IN=  3.50  OUT=0.9707   increase/h=0.0272  OUT*(1-OUT)=0.0285
+IN=  4.00  OUT=0.9820   increase/h=0.0168  OUT*(1-OUT)=0.0177
+IN=  4.50  OUT=0.9890   increase/h=0.0104  OUT*(1-OUT)=0.0109
+IN=  5.00  OUT=0.9933   increase/h=0.0063  OUT*(1-OUT)=0.0066
+
+
+What do you wish to use for h? 0.05
+IN= -5.00  OUT=0.0067   increase/h=0.0068  OUT*(1-OUT)=0.0066
+IN= -4.50  OUT=0.0110   increase/h=0.0111  OUT*(1-OUT)=0.0109
+IN= -4.00  OUT=0.0180   increase/h=0.0181  OUT*(1-OUT)=0.0177
+IN= -3.50  OUT=0.0293   increase/h=0.0291  OUT*(1-OUT)=0.0285
+IN= -3.00  OUT=0.0474   increase/h=0.0462  OUT*(1-OUT)=0.0452
+IN= -2.50  OUT=0.0759   increase/h=0.0716  OUT*(1-OUT)=0.0701
+IN= -2.00  OUT=0.1192   increase/h=0.1070  OUT*(1-OUT)=0.1050
+IN= -1.50  OUT=0.1824   increase/h=0.1515  OUT*(1-OUT)=0.1491
+IN= -1.00  OUT=0.2689   increase/h=0.1989  OUT*(1-OUT)=0.1966
+IN= -0.50  OUT=0.3775   increase/h=0.2364  OUT*(1-OUT)=0.2350
+IN=  0.00  OUT=0.5000   increase/h=0.2499  OUT*(1-OUT)=0.2500
+IN=  0.50  OUT=0.6225   increase/h=0.2335  OUT*(1-OUT)=0.2350
+IN=  1.00  OUT=0.7311   increase/h=0.1943  OUT*(1-OUT)=0.1966
+IN=  1.50  OUT=0.8176   increase/h=0.1468  OUT*(1-OUT)=0.1491
+IN=  2.00  OUT=0.8808   increase/h=0.1030  OUT*(1-OUT)=0.1050
+IN=  2.50  OUT=0.9241   increase/h=0.0686  OUT*(1-OUT)=0.0701
+IN=  3.00  OUT=0.9526   increase/h=0.0442  OUT*(1-OUT)=0.0452
+IN=  3.50  OUT=0.9707   increase/h=0.0278  OUT*(1-OUT)=0.0285
+IN=  4.00  OUT=0.9820   increase/h=0.0172  OUT*(1-OUT)=0.0177
+IN=  4.50  OUT=0.9890   increase/h=0.0106  OUT*(1-OUT)=0.0109
+IN=  5.00  OUT=0.9933   increase/h=0.0065  OUT*(1-OUT)=0.0066
+
+What do you wish to use for h? 0.025
+IN= -5.00  OUT=0.0067   increase/h=0.0067  OUT*(1-OUT)=0.0066
+IN= -4.50  OUT=0.0110   increase/h=0.0110  OUT*(1-OUT)=0.0109
+IN= -4.00  OUT=0.0180   increase/h=0.0179  OUT*(1-OUT)=0.0177
+IN= -3.50  OUT=0.0293   increase/h=0.0288  OUT*(1-OUT)=0.0285
+IN= -3.00  OUT=0.0474   increase/h=0.0457  OUT*(1-OUT)=0.0452
+IN= -2.50  OUT=0.0759   increase/h=0.0709  OUT*(1-OUT)=0.0701
+IN= -2.00  OUT=0.1192   increase/h=0.1060  OUT*(1-OUT)=0.1050
+IN= -1.50  OUT=0.1824   increase/h=0.1503  OUT*(1-OUT)=0.1491
+IN= -1.00  OUT=0.2689   increase/h=0.1977  OUT*(1-OUT)=0.1966
+IN= -0.50  OUT=0.3775   increase/h=0.2357  OUT*(1-OUT)=0.2350
+IN=  0.00  OUT=0.5000   increase/h=0.2500  OUT*(1-OUT)=0.2500
+IN=  0.50  OUT=0.6225   increase/h=0.2343  OUT*(1-OUT)=0.2350
+IN=  1.00  OUT=0.7311   increase/h=0.1955  OUT*(1-OUT)=0.1966
+IN=  1.50  OUT=0.8176   increase/h=0.1480  OUT*(1-OUT)=0.1491
+IN=  2.00  OUT=0.8808   increase/h=0.1040  OUT*(1-OUT)=0.1050
+IN=  2.50  OUT=0.9241   increase/h=0.0694  OUT*(1-OUT)=0.0701
+IN=  3.00  OUT=0.9526   increase/h=0.0447  OUT*(1-OUT)=0.0452
+IN=  3.50  OUT=0.9707   increase/h=0.0281  OUT*(1-OUT)=0.0285
+IN=  4.00  OUT=0.9820   increase/h=0.0175  OUT*(1-OUT)=0.0177
+IN=  4.50  OUT=0.9890   increase/h=0.0107  OUT*(1-OUT)=0.0109
+IN=  5.00  OUT=0.9933   increase/h=0.0066  OUT*(1-OUT)=0.0066
+
+
+What do you wish to use for h? 0.01
+IN= -5.00  OUT=0.0067   increase/h=0.0067  OUT*(1-OUT)=0.0066
+IN= -4.50  OUT=0.0110   increase/h=0.0109  OUT*(1-OUT)=0.0109
+IN= -4.00  OUT=0.0180   increase/h=0.0177  OUT*(1-OUT)=0.0177
+IN= -3.50  OUT=0.0293   increase/h=0.0286  OUT*(1-OUT)=0.0285
+IN= -3.00  OUT=0.0474   increase/h=0.0454  OUT*(1-OUT)=0.0452
+IN= -2.50  OUT=0.0759   increase/h=0.0704  OUT*(1-OUT)=0.0701
+IN= -2.00  OUT=0.1192   increase/h=0.1054  OUT*(1-OUT)=0.1050
+IN= -1.50  OUT=0.1824   increase/h=0.1496  OUT*(1-OUT)=0.1491
+IN= -1.00  OUT=0.2689   increase/h=0.1971  OUT*(1-OUT)=0.1966
+IN= -0.50  OUT=0.3775   increase/h=0.2353  OUT*(1-OUT)=0.2350
+IN=  0.00  OUT=0.5000   increase/h=0.2500  OUT*(1-OUT)=0.2500
+IN=  0.50  OUT=0.6225   increase/h=0.2347  OUT*(1-OUT)=0.2350
+IN=  1.00  OUT=0.7311   increase/h=0.1962  OUT*(1-OUT)=0.1966
+IN=  1.50  OUT=0.8176   increase/h=0.1487  OUT*(1-OUT)=0.1491
+IN=  2.00  OUT=0.8808   increase/h=0.1046  OUT*(1-OUT)=0.1050
+IN=  2.50  OUT=0.9241   increase/h=0.0698  OUT*(1-OUT)=0.0701
+IN=  3.00  OUT=0.9526   increase/h=0.0450  OUT*(1-OUT)=0.0452
+IN=  3.50  OUT=0.9707   increase/h=0.0283  OUT*(1-OUT)=0.0285
+IN=  4.00  OUT=0.9820   increase/h=0.0176  OUT*(1-OUT)=0.0177
+IN=  4.50  OUT=0.9890   increase/h=0.0108  OUT*(1-OUT)=0.0109
+IN=  5.00  OUT=0.9933   increase/h=0.0066  OUT*(1-OUT)=0.0066
