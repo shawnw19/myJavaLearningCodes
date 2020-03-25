@@ -1,0 +1,80 @@
+Type in the rows of costs like this:
+12 13.6 16 23.1
+What are the costs for row 1?
+0
+0
+0
+1
+What are the costs for row 2?
+0
+0
+3
+0
+What are the costs for row 3?
+0
+5
+0
+0
+What are the costs for row 4?
+7
+0
+0
+0
+biggest cost: 7.0
+old x21=0 act= 14.0| 14.0 14.0 14.0 14.0 14.0 14.0 Activisation=  14.00  new x21 = 1
+old x32=0 act= 9.0| 9.0 9.0 9.0 9.0 9.0 9.0 Activisation=   9.00  new x32 = 1
+old x31=0 act= 14.0| 14.0 0.0 0.0 -14.0 -14.0 -14.0 Activisation= -14.00  new x31 = 0
+old x13=0 act= 14.0| 14.0 14.0 14.0 14.0 14.0 14.0 Activisation=  14.00  new x13 = 1
+old x12=0 act= 14.0| 14.0 0.0 0.0 0.0 -14.0 -14.0 Activisation= -14.00  new x12 = 0
+old x34=0 act= 14.0| 14.0 14.0 14.0 14.0 0.0 0.0 Activisation=   0.00  new x34 = 1
+old x22=0 act= 14.0| 14.0 0.0 0.0 -14.0 -14.0 -14.0 Activisation= -14.00  new x22 = 0
+old x42=0 act= 14.0| 14.0 14.0 0.0 0.0 0.0 0.0 Activisation=   0.00  new x42 = 1
+old x41=0 act= 7.0| 7.0 -7.0 -7.0 -21.0 -21.0 -21.0 Activisation= -21.00  new x41 = 0
+old x31=0 act= 14.0| 14.0 0.0 0.0 -14.0 -14.0 -28.0 Activisation= -28.00  new x31 = 0
+old x43=0 act= 14.0| 0.0 0.0 0.0 0.0 -14.0 -14.0 Activisation= -14.00  new x43 = 0
+old x41=0 act= 7.0| 7.0 -7.0 -7.0 -21.0 -21.0 -21.0 Activisation= -21.00  new x41 = 0
+old x33=0 act= 14.0| 0.0 0.0 0.0 0.0 -14.0 -28.0 Activisation= -28.00  new x33 = 0
+old x42=1 act= 14.0| 14.0 14.0 0.0 0.0 0.0 0.0 Activisation=   0.00  new x42 = 1
+old x33=0 act= 14.0| 0.0 0.0 0.0 0.0 -14.0 -28.0 Activisation= -28.00  new x33 = 0
+old x14=0 act= 13.0| 13.0 -1.0 -1.0 -1.0 -1.0 -15.0 Activisation= -15.00  new x14 = 0
+old x32=1 act= 9.0| 9.0 9.0 -5.0 -5.0 -5.0 -19.0 Activisation= -19.00  new x32 = 0
+old x32=0 act= 9.0| 9.0 9.0 -5.0 -5.0 -5.0 -19.0 Activisation= -19.00  new x32 = 0
+old x32=0 act= 9.0| 9.0 9.0 -5.0 -5.0 -5.0 -19.0 Activisation= -19.00  new x32 = 0
+old x31=0 act= 14.0| 14.0 0.0 0.0 0.0 0.0 -14.0 Activisation= -14.00  new x31 = 0
+old x31=0 act= 14.0| 14.0 0.0 0.0 0.0 0.0 -14.0 Activisation= -14.00  new x31 = 0
+old x41=0 act= 7.0| 7.0 -7.0 -7.0 -21.0 -21.0 -21.0 Activisation= -21.00  new x41 = 0
+old x23=0 act= 11.0| -3.0 -3.0 -3.0 -17.0 -17.0 -17.0 Activisation= -17.00  new x23 = 0
+old x42=1 act= 14.0| 14.0 14.0 14.0 14.0 14.0 14.0 Activisation=  14.00  new x42 = 1
+old x12=0 act= 14.0| 14.0 14.0 0.0 0.0 -14.0 -14.0 Activisation= -14.00  new x12 = 0
+old x22=0 act= 14.0| 14.0 14.0 0.0 -14.0 -14.0 -14.0 Activisation= -14.00  new x22 = 0
+old x11=0 act= 14.0| 0.0 0.0 0.0 0.0 -14.0 -14.0 Activisation= -14.00  new x11 = 0
+old x13=1 act= 14.0| 14.0 14.0 14.0 14.0 14.0 14.0 Activisation=  14.00  new x13 = 1
+old x13=1 act= 14.0| 14.0 14.0 14.0 14.0 14.0 14.0 Activisation=  14.00  new x13 = 1
+old x24=0 act= 14.0| 14.0 0.0 0.0 -14.0 -14.0 -14.0 Activisation= -14.00  new x24 = 0
+old x23=0 act= 11.0| -3.0 -3.0 -3.0 -17.0 -17.0 -17.0 Activisation= -17.00  new x23 = 0
+old x24=0 act= 14.0| 14.0 0.0 0.0 -14.0 -14.0 -14.0 Activisation= -14.00  new x24 = 0
+old x33=0 act= 14.0| 0.0 0.0 0.0 0.0 0.0 -14.0 Activisation= -14.00  new x33 = 0
+old x34=1 act= 14.0| 14.0 14.0 14.0 14.0 14.0 14.0 Activisation=  14.00  new x34 = 1
+old x23=0 act= 11.0| -3.0 -3.0 -3.0 -17.0 -17.0 -17.0 Activisation= -17.00  new x23 = 0
+old x42=1 act= 14.0| 14.0 14.0 14.0 14.0 14.0 14.0 Activisation=  14.00  new x42 = 1
+old x21=1 act= 14.0| 14.0 14.0 14.0 14.0 14.0 14.0 Activisation=  14.00  new x21 = 1
+old x12=0 act= 14.0| 14.0 14.0 0.0 0.0 -14.0 -14.0 Activisation= -14.00  new x12 = 0
+old x32=0 act= 9.0| 9.0 9.0 -5.0 -5.0 -5.0 -19.0 Activisation= -19.00  new x32 = 0
+old x11=0 act= 14.0| 0.0 0.0 0.0 0.0 -14.0 -14.0 Activisation= -14.00  new x11 = 0
+old x24=0 act= 14.0| 14.0 0.0 0.0 -14.0 -14.0 -14.0 Activisation= -14.00  new x24 = 0
+old x14=0 act= 13.0| 13.0 -1.0 -1.0 -1.0 -1.0 -15.0 Activisation= -15.00  new x14 = 0
+old x24=0 act= 14.0| 14.0 0.0 0.0 -14.0 -14.0 -14.0 Activisation= -14.00  new x24 = 0
+old x24=0 act= 14.0| 14.0 0.0 0.0 -14.0 -14.0 -14.0 Activisation= -14.00  new x24 = 0
+old x12=0 act= 14.0| 14.0 14.0 0.0 0.0 -14.0 -14.0 Activisation= -14.00  new x12 = 0
+old x13=1 act= 14.0| 14.0 14.0 14.0 14.0 14.0 14.0 Activisation=  14.00  new x13 = 1
+old x21=1 act= 14.0| 14.0 14.0 14.0 14.0 14.0 14.0 Activisation=  14.00  new x21 = 1
+old x44=0 act= 14.0| 14.0 14.0 0.0 0.0 -14.0 -14.0 Activisation= -14.00  new x44 = 0
+old x14=0 act= 13.0| 13.0 -1.0 -1.0 -1.0 -1.0 -15.0 Activisation= -15.00  new x14 = 0
+
+Final Assignments are:
+ 0  0  1  0
+ 1  0  0  0
+ 0  0  0  1
+ 0  1  0  0
+
+The total cost is  0.0000
