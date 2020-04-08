@@ -48,12 +48,10 @@ public class BankQueueSimulation {
 
         Event event3;//arrival/departure event holder
         while (!arrivalList.isEmpty()){//the arrivalList will be popped out first
-            //int temp1 = 0, temp2=0;//both start at first event
             int t1, t2;
             t1= ((Event)arrivalList.get(0)).getTheTime();
             t2= ((Event)departureList.get(0)).getTheTime();
 
-            //Timer timer = new Timer();
             if (t1<=t2){//the nearest event is an arrival
                 event3= (Event) arrivalList.pop();
                 System.out.println("Customer No."+event3.getNo() +" arrived at "+event3.getTheTime()+" .");
