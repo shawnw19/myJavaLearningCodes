@@ -1,0 +1,56 @@
+Simulation begins.
+20 customers.
+Customer No.1 arrived at 5, transaction: 14 .
+Customer No.2 arrived at 7, transaction: 11 .
+Customer No.3 arrived at 15, transaction: 1 .
+Customer No.1 departed at 19 .
+Customer No.4 arrived at 20, transaction: 8 .
+Customer No.5 arrived at 26, transaction: 5 .
+Customer No.2 departed at 30 .
+
+A 12 min break happened at 30 min.
+
+Customer No.6 arrived at 33, transaction: 3 .
+Customer No.7 arrived at 40, transaction: 9 .
+Customer No.3 departed at 43 .
+Customer No.8 arrived at 44, transaction: 5 .
+Customer No.9 arrived at 49, transaction: 11 .
+Customer No.4 departed at 51 .
+Customer No.10 arrived at 54, transaction: 3 .
+Customer No.5 departed at 56 .
+Customer No.6 departed at 59 .
+
+A 15 min break happened at 59 min.
+
+Customer No.11 arrived at 60, transaction: 9 .
+Customer No.12 arrived at 65, transaction: 12 .
+Customer No.13 arrived at 68, transaction: 9 .
+Customer No.14 arrived at 72, transaction: 13 .
+Customer No.15 arrived at 79, transaction: 5 .
+Customer No.7 departed at 83 .
+Customer No.16 arrived at 84, transaction: 8 .
+Customer No.8 departed at 88 .
+Customer No.17 arrived at 90, transaction: 13 .
+Customer No.18 arrived at 94, transaction: 12 .
+Customer No.9 departed at 99 .
+Customer No.19 arrived at 99, transaction: 15 .
+Customer No.10 departed at 102 .
+Customer No.20 arrived at 105, transaction: 5 .
+Customer No.11 departed at 111 .
+
+A 13 min break happened at 111 min.
+
+Customer No.12 departed at 136 .
+Customer No.13 departed at 145 .
+Customer No.14 departed at 158 .
+Customer No.15 departed at 163 .
+Customer No.16 departed at 171 .
+Customer No.17 departed at 184 .
+Customer No.18 departed at 196 .
+Customer No.19 departed at 211 .
+Customer No.20 departed at 216 .
+
+Average waiting time: 18.0
+Waiting array:
+  1|  2|  3|  4|  5|  6|  7|  8|  9| 10| 11| 12| 13| 14| 15| 16| 17| 18| 19| 20|
+  0  11  13  20  17   3  24  20  26  18   9  25  22  26  18  21  26  25  28  18
