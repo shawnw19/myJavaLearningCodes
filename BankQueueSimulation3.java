@@ -2,25 +2,19 @@ package Chp00;
 
 import java.util.LinkedList;
 import java.util.Random;
-
 /*
-this implementation is with additional feature:
-simulating breaks of the service after it has started.
-Main ideas: 1 one event processed each with yet two kinds of time considered:
-   of the current event, end of last event;
-   2 limited buffer to prevent burden of reforming data (in the case of unexpected service break)
-    -- based on 1.
+improvements on version2: 1 simplified control flow
+2 reduction of variables and removal of bootstrap based on 1
  */
-public class BankQueueSimulation2 {
+public class BankQueueSimulation3 {
     static int time = 0;//of finishing last event
     static int currentT = 0;//current time
-    static int totalWait = 0;
     static LinkedList<Event> arrivalList = new LinkedList<Event>();
     static LinkedList<Event> departureList = new LinkedList<Event>();
     static int no = 20;//no. of customers
-    static int ptr = 0;//pointing to n-th arrival
+    static Event event;//temporary event (be it arrival, departure etc) holder
 
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) {
 
         System.out.println("Simulation begins.");
 
@@ -33,49 +27,39 @@ public class BankQueueSimulation2 {
             event.setNo(i+1);
             arrivalList.add(event);
         }
-        System.out.println(no + " customers.");
+        System.out.println(arrivalList.size() + " customers.");
 
-        //bootstrap by moving to the first customer
-        Event event3;//arrival/departure event holder
-        event3 = arrivalList.get(ptr);//point to first arrival
-        System.out.print("Customer No." + event3.getNo() + " arrived at " + event3.getTheTime() + ", ");
-        System.out.println("transaction: "+event3.getTransactionLength()+" .");
-        currentT = event3.getTheTime();
-        generateDeparture();
-        ptr++;
-        //end of boot
+        int totalWait = 0;//for calculating waiting time
+        int[] wait = new int[no];
 
-        int[] wait = new int[no];//-
-
-        boolean allArrived = false;
-        for (int i = 1; i < 2 * no; i++) {//process one event once
+        for (int i = 0; i < 2*no; i++) {//process one event once
             int t1, t2;//for comparison of two nearest events in the two lists
-            t1 = arrivalList.get(ptr).getTheTime();
+
+            if (arrivalList.size()>0) {//not end of arrivals
+                t1 = arrivalList.get(0).getTheTime();
+            }else {
+                t1 = currentT;
+            }
             if(!departureList.isEmpty()){
                 t2 = departureList.get(0).getTheTime();
             }else {//in case of zero nearest departure caused by late arrivals
                 t2 = t1+1;
             }
 
-            if (t1 < t2 & !allArrived) {//the nearest event is an arrival, not end of arrivals
-                event3 = arrivalList.get(ptr);
-                System.out.print("Customer No." + event3.getNo() + " arrived at " + event3.getTheTime() + ", ");
-                System.out.println("transaction: "+event3.getTransactionLength()+" .");
-                generateDeparture();
-                ptr++;
-                if (ptr == no) {
-                    ptr--;
-                    allArrived = true;
-                }
+            if (t1<t2 &arrivalList.size()>0){//the nearest event is an arrival
+                event = arrivalList.pop();
+                System.out.print("Customer No." + event.getNo() + " arrived at " + event.getTheTime() + ", ");
+                System.out.println("transaction: "+event.getTransactionLength()+" .");
+                generateDeparture(event);
 
-            } else {
-                event3 = departureList.pop();
-                totalWait += event3.getWaiting();
+            }else {
+                event = departureList.pop();
+                totalWait += event.getWaiting();
 
-                wait[event3.getNo()-1] = event3.getWaiting();//-
+                wait[event.getNo()-1] = event.getWaiting();//-
 
-                System.out.println("Customer No." + event3.getNo() + " departed at " + event3.getTheTime() + " .");
-                currentT = event3.getTheTime();
+                System.out.println("Customer No." + event.getNo() + " departed at " + event.getTheTime() + " .");
+                currentT = event.getTheTime();
 
                 if (currentT >= 30 & !departureList.isEmpty()) {
                     //random break from 30th min of service, could happen after a departure
@@ -87,13 +71,13 @@ public class BankQueueSimulation2 {
                             e.setTheTime(e.getTheTime()+pause);
                             e.setWaiting(e.getWaiting()+pause);
 
-                            wait[event3.getNo()-1] = event3.getWaiting();//-
+                            wait[event.getNo()-1] = event.getWaiting();//-
                         }
                         time += pause;
                     }
                 }
-
             }
+
         }
 
         double averageWait = totalWait / no;
@@ -110,18 +94,17 @@ public class BankQueueSimulation2 {
 
     }
 
-    static void generateDeparture() throws CloneNotSupportedException {
-        Event event2 = (Event) ((Event) arrivalList.get(ptr)).clone();//get the last
-        if (event2.getTheTime() >= time) {//no people waiting
-            time = event2.getTheTime() + event2.getTransactionLength();
-            event2.setTheTime(time);
-            event2.setWaiting(0);
+    static void generateDeparture(Event arrival) {
+        if (arrival.getTheTime() >= time) {//no people waiting
+            time = arrival.getTheTime() + arrival.getTransactionLength();
+            arrival.setTheTime(time);
+            arrival.setWaiting(0);
         } else {//some people waiting
-            event2.setWaiting(time - event2.getTheTime());
-            time = time + event2.getTransactionLength();
-            event2.setTheTime(time);
+            arrival.setWaiting(time - arrival.getTheTime());
+            time = time + arrival.getTransactionLength();
+            arrival.setTheTime(time);
         }
-        departureList.add(event2);
+        departureList.add(arrival);
     }
 
     static class Event implements Cloneable {
@@ -160,11 +143,6 @@ public class BankQueueSimulation2 {
 
         public void setWaiting(int waiting) {
             this.waiting = waiting;
-        }
-
-        @Override
-        protected Object clone() throws CloneNotSupportedException {
-            return super.clone();
         }
     }
 
