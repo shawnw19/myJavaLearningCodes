@@ -1,0 +1,150 @@
+Comment:
+1 avoid pass-by-? hell: whether clone() should be used
+should be scrutinised from time to time
+2 this version Dijkstra's algorithm is complex to ensure no intermediate
+information is lost during execution and is thus good for debugging
+(it did so).
+
+0th node created.
+to 0th node distanced 0
+to 1th node distanced 30
+to 3th node distanced 50
+to 4th node distanced 40
+to 5th node distanced 100
+0th node added to search list.
+0th node added to gamut list.
+------------------
+1th node created.
+to 1th node distanced 0
+to 2th node distanced 40
+1th node added to search list.
+1th node added to gamut list.
+------------------
+2th node created.
+to 2th node distanced 0
+to 4th node distanced 10
+to 5th node distanced 30
+2th node added to search list.
+2th node added to gamut list.
+------------------
+3th node created.
+to 2th node distanced 10
+to 3th node distanced 0
+3th node added to search list.
+3th node added to gamut list.
+------------------
+4th node created.
+to 3th node distanced 20
+to 4th node distanced 0
+to 5th node distanced 70
+4th node added to search list.
+4th node added to gamut list.
+------------------
+5th node created.
+to 5th node distanced 0
+5th node added to search list.
+5th node added to gamut list.
+------------------
+----------------
+0th node popped.
+Its parents: []
+4 nodes to search.
+1th node being investigated.
+Min dist to 1th is 30
+Its new grandparents: []
+New parent 0 added to 1
+1th added to search list.
+3th node being investigated.
+Min dist to 3th is 50
+Its new grandparents: []
+New parent 0 added to 3
+3th added to search list.
+4th node being investigated.
+Min dist to 4th is 40
+Its new grandparents: []
+New parent 0 added to 4
+4th added to search list.
+5th node being investigated.
+Min dist to 5th is 100
+Its new grandparents: []
+New parent 0 added to 5
+5th added to search list.
+----------------
+1th node popped.
+Its parents: [0]
+2 nodes to search.
+1th node being investigated.
+2th node being investigated.
+Min dist to 2th is 70
+Its new grandparents: [0]
+New parent 1 added to 2
+2th added to search list.
+----------------
+2th node popped.
+Its parents: [0, 1]
+3 nodes to search.
+2th node being investigated.
+4th node being investigated.
+5th node being investigated.
+----------------
+3th node popped.
+Its parents: [0]
+2 nodes to search.
+2th node being investigated.
+Min dist to 2th is 60
+Its new grandparents: [0]
+New parent 3 added to 2
+2th added to search list.
+3th node being investigated.
+----------------
+4th node popped.
+Its parents: [0]
+3 nodes to search.
+3th node being investigated.
+4th node being investigated.
+5th node being investigated.
+----------------
+5th node popped.
+Its parents: [0]
+1 nodes to search.
+5th node being investigated.
+----------------
+1th node popped.
+Its parents: [0]
+0 nodes to search.
+----------------
+3th node popped.
+Its parents: [0]
+0 nodes to search.
+----------------
+4th node popped.
+Its parents: [0]
+0 nodes to search.
+----------------
+5th node popped.
+Its parents: [0]
+0 nodes to search.
+----------------
+2th node popped.
+Its parents: [0, 3]
+3 nodes to search.
+2th node being investigated.
+4th node being investigated.
+5th node being investigated.
+Min dist to 5th is 90
+Its new grandparents: [0, 3]
+New parent 2 added to 5
+5th added to search list.
+----------------
+2th node popped.
+Its parents: [0, 3]
+0 nodes to search.
+----------------
+5th node popped.
+Its parents: [0, 3, 2]
+1 nodes to search.
+5th node being investigated.
+----------------
+The shortest path from A to F:
+Through A D C.
+Distance: 90.
