@@ -1,0 +1,48 @@
+Comment:
+1 the ddft is in fact a self-convolution:
+corresponding sin and cos time the signal itself, if the frequency of the inputs corresponds to ith,
+then the product of sinwi(=1 or -1) and corresponding input will be near 1 or -1,
+this finally make the ith output very large in absolute value.
+The orthogonality of sinusoids is the foundation to this transform.
+2 however, the performance for large n and period is unsatisfactory:
+when they increase the concentrated frequency is often near the twice of period if n and period are mutually prime, half if they are not.
+
+output1:
+Number of time or samples: 32
+Periods over the samples: 3
+Number of samples delay: 0
+
+Transformed sequence is:
+Index  Real  Imaginary
+  0    0.00     0.00
+  1   -0.56    -0.56
+  2   -2.13    -1.42
+  3   -3.62    -0.72
+  4   -2.41     1.00
+  5   -0.14     0.34
+  6    0.21     0.31
+  7    1.81    -0.36
+  8    0.00     0.00
+  9    1.51     0.00
+ 10    0.05     0.24
+ 11   -0.17     0.11
+ 12   -1.00    -0.41
+ 13   -0.43    -1.04
+ 14    0.10    -0.50
+ 15    0.04    -0.06
+ 16   -0.00     0.00
+ 17   -0.05     0.05
+ 18   -0.28     0.42
+ 19   -0.22     1.10
+ 20    0.41     1.00
+ 21    0.18     0.08
+ 22    0.21    -0.14
+ 23   -0.30    -1.48
+ 24    0.00    -0.00
+ 25   -0.00    -1.84
+ 26    0.37    -0.07
+ 27    0.21     0.31
+ 28   -1.00     2.41
+ 29   -3.41     1.41
+ 30   -2.51    -0.50
+ 31   -0.65    -0.44
