@@ -1,0 +1,41 @@
+In version1, without normalisation of vectors,
+the collinearity was decided based on a large precision width [abs<200],
+and some results with points on edge are shown:
+
+A: 10, 287
+B: -257, 169
+C: -145, -217
+P: -52,259 on edge!
+
+A: 189, 217
+B: -203, 259
+C: -164, -95
+P: -179,46 on edge!
+P: -56,0 on edge!
+
+A: 144, 192
+B: -25, 248
+C: -278, 23
+P: 92,210 on edge!
+P: -239,39 on edge!
+P: -237,60 on edge!
+P: 138,193 on edge!
+P: -102,180 on edge!
+
+
+A: 3, 207
+B: -202, 30
+C: -120, -209
+P: -33,85 on edge!
+P: -112,-182 on edge!
+P: -45,45 on edge!
+P: -59,-4 on edge!
+
+In version 2 after normalisation, the precision was decided to be
+between 1e-4 and 1e-3 while it is 1e-12 in the reference.
+In the major cases 1e-3 worked fine and 1e-4 would often label
+the points seen to be exactly on the edge to be outside. However,
+1e-3 or even 5e-4 didn't work when the triangle was very blunt (largest angle>150)
+due to numerical tricks and some points that were obviously outside
+were labelled on the edge.
+Ironically, such a precision dilemma was not seen in non-normalised cases.
