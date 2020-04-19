@@ -1,5 +1,11 @@
 package Signals;
 
+import CommonUtils.MyUtils;
+import org.apache.commons.math3.complex.Complex;
+import org.apache.commons.math3.transform.DftNormalization;
+import org.apache.commons.math3.transform.FastFourierTransformer;
+import org.apache.commons.math3.transform.TransformType;
+
 public class $3_DDFT_cleaned {
     static int n = 32;//num of time intervals or samples -NS
     static int periods =3;/*over the samples
@@ -41,5 +47,11 @@ public class $3_DDFT_cleaned {
         for (int i = 0; i <n ; i++) {
             System.out.printf(" %2d   %5.2f    %5.2f\n",i, y[i][0],y[i][1]);
         }
+
+        //using 3rd party library
+        System.out.println("\nUsing Apache.Commons.Math: \n");
+        FastFourierTransformer fft = new FastFourierTransformer(DftNormalization.STANDARD);
+        Complex[] result = fft.transform(x, TransformType.FORWARD);
+        MyUtils.printArray(result);
     }
 }
