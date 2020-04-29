@@ -6,6 +6,7 @@ import org.apache.commons.math3.stat.StatUtils;
 import org.apache.commons.math3.util.FastMath;
 
 import java.awt.*;
+import java.security.InvalidParameterException;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -20,7 +21,7 @@ public class SignalUtilis {
         System.out.printf("Length %d, Min %.2f, Max %.2f, Avg %.2f, SD %.2f \n", len, min, max, avg, sd);
     }
 
-    public static void visualizeSignal(double[] m, int windowWidth, int windowHeight, int interval) {
+    public static void visualizeSignal(double[] m, int windowWidth, int windowHeight, int interval, boolean lined) {
         int len = m.length;
         double min = StatUtils.min(m);
         double max = StatUtils.max(m);
@@ -36,11 +37,13 @@ public class SignalUtilis {
         StdDraw.line(0, median, len, median);
         StdDraw.setPenColor(Color.BLUE);
         for (int i = 0; i < len; i++) {
-            /*StdDraw.point(i, m[i]);
-            StdDraw.line(i, m[i],i+1, m[i+1]);//-*/
+            StdDraw.setPenColor(Color.CYAN);
             if (i % interval == 0){
+                if(lined & i+interval<len){
+                    StdDraw.line(i, m[i],i+interval, m[i+interval]);
+                }
+                StdDraw.setPenColor(Color.BLACK);
                 StdDraw.point(i, m[i]);
-                //StdDraw.line(i, m[i],i+1, m[i+1]);//-
             }
         }
     }
@@ -98,9 +101,47 @@ public class SignalUtilis {
         return x;
     }
 
-    /*
-    if (len<=defaultN*1.1){
-            throw new RuntimeException("Length below resampling threshold.");
+    public static double[] generateSimpleSinusoid(double duration, int frequency, double phaseShift) {//amplitude is set 1 as default
+        int length = (int) (duration*StdAudio.SAMPLE_RATE);
+        double[] sound = new double[length];
+        double w = 2*Math.PI*frequency/StdAudio.SAMPLE_RATE;
+        for (int i = 0; i <length ; i++) {
+            sound[i] = Math.sin(w*(i+phaseShift));
+        }
+
+        return sound;
+    }
+
+    public static double[] simpleConvolution(double[] input, double[] response, double offset) {
+        int len1 = input.length;
+        int len2 = response.length;
+        int len = Math.max(len1,len2);
+        double[] output = new double[len];
+        for (int i = 0; i <len ; i++) {
+            output[i] = input[i%len1]*response[i%len2] + offset;
+        }
+
+        return output;
+    }
+
+    public static double[] linearFade(double[] input, double start, double end, boolean fadeIn) {//proportions of start and end; false for fade-out
+        int len = input.length;
+        double[] output = input.clone();//for convenience of keeping unchanged part intact
+        if (start>=1 || end<=0 || start>=end){
+            throw new InvalidParameterException("Invalid start/end proportion!");
         }else {
-     */
+            int segLen = (int) ((end-start)*len);
+            for (int i = (int) (start*len); i < (end*len); i++) {
+                double prop = (1.0 / segLen) * (i-start*len);//proportion to the original value
+                if(fadeIn){
+                    output[i] *= prop;
+                }else {
+                    output[i] *= 1-prop;
+                }
+            }
+        }
+
+        return output;
+    }
+
 }
