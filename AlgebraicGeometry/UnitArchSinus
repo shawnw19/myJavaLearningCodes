@@ -1,0 +1,53 @@
+/*
+Discussion:
+
+1. It seems that regardless of frequency, there exists an exact value for unit arc length of sinusoids
+since the values are very similar in the examples.
+On the one hand, the analytic form for this value exists.
+On the other hand, however, there is no exact value for unit arc length of sinusoids
+https://math.stackexchange.com/questions/45089/what-is-the-length-of-a-sine-wave-from-0-to-2-pi
+The precision depends it of E, "elliptic integral of second kind" in the equation in the link above.
+Additional reference: https://zhuanlan.zhihu.com/p/60497494.
+
+2. The value can be expressed as E*4 and E is approximate to 1 in infinity. In these examples, the lower
+the frequency, the higher precision of E was achieved. This is explained by the decrease of sampling
+resolution of higher frequencies.
+
+3. The reason why unit arc lengths are regarded the same could be the path independence principle of
+complex integration. In this case the sinusoid (sine) acts as gamma, the path function while
+the difference in frequency and its reciprocal cancel each other making the path always 0 to 2pi.
+Then what is the main function to be integrated?
+ */
+
+/*
+len 0 f=20 :3.9999704898984625
+len 1 f=60 :3.9999623704625664
+len 2 f=100 :3.999946131607012
+len 3 f=140 :3.9999217733645778
+len 4 f=180 :3.999889295784228
+len 5 f=220 :3.999808101563879
+len 6 f=260 :3.9997431473370377
+len 7 f=300 :3.9997431477665093
+len 8 f=340 :3.9995807645391612
+len 9 f=380 :3.9994833367600964
+len 10 f=420 :3.999523929071928
+len 11 f=460 :3.9992560108098965
+len 12 f=500 :3.999134231791908
+len 13 f=540 :3.9990124540697933
+len 14 f=580 :3.99883385461258
+len 15 f=620 :3.998671493963658
+len 16 f=660 :3.9985010192175605
+len 17 f=700 :3.9987282800470263
+len 18 f=740 :3.9981194973371252
+len 19 f=780 :3.997916568415185
+len 20 f=820 :3.9976974131165695
+len 21 f=860 :3.997470148069922
+len 22 f=900 :3.9979164476577136
+len 23 f=940 :3.9969831776398395
+len 24 f=980 :3.9975349054019054
+len 25 f=1020 :3.996455665624627
+len 26 f=1060 :3.99617163933701
+len 27 f=1100 :3.995887621198149
+len 28 f=1140 :3.995579277679281
+len 29 f=1180 :3.995262833784599
+ */
