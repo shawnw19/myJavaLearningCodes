@@ -6,7 +6,6 @@ import org.apache.commons.math3.stat.StatUtils;
 import org.apache.commons.math3.util.FastMath;
 
 import java.awt.*;
-import java.security.InvalidParameterException;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -116,7 +115,7 @@ public class SignalUtils {
         return sound;
     }
 
-    public static double[] simpleConvolution(double[] input, double[] response, double offset) {
+    public static double[] ringModulation(double[] input, double[] response, double offset) {
         int len1 = input.length;
         int len2 = response.length;
         int len = Math.max(len1,len2);
@@ -132,7 +131,7 @@ public class SignalUtils {
         int len = input.length;
         double[] output = input.clone();//for convenience of keeping unchanged part intact
         if (start>=1 || end<=0 || start>=end){
-            throw new InvalidParameterException("Invalid start/end proportion!");
+            throw new IllegalArgumentException("Invalid start/end proportion!");
         }else {
             int segLen = (int) ((end-start)*len);
             for (int i = (int) (start*len); i < (end*len); i++) {
