@@ -1,11 +1,11 @@
 package Signals;
 
-import CommonUtils.SignalUtilis;
+import CommonUtils.SignalUtils;
 import IntroCS_Princeton.StdAudio;
 
 /*
 the essence of this ubiquitous sound effect is
-the convolution of a low frequency oscillator(LFO) with another sound
+the array multiplication of a low frequency oscillator(LFO) with another sound
  */
 public class $6_TremoloEtAh {
     static double duration = 5.0;
@@ -43,27 +43,27 @@ public class $6_TremoloEtAh {
 
     public static void main(String[] args) {
         double[] sound1 = SoundGen.generateSound(1);//sawtooth
-        double[] sound2 = SignalUtilis.generateSimpleSinusoid(duration, 800, 0);
+        double[] sound2 = SignalUtils.generateSimpleSinusoid(duration, 800, 0);
 
-        double[] tremolo= SignalUtilis.simpleConvolution(sound1, sound2, 0.5);//plus offset which changes modulation depth/intensify by alternating the occurrence of peaks
+        double[] tremolo= SignalUtils.ringModulation(sound1, sound2, 0.5);//plus offset which changes modulation depth/intensify by alternating the occurrence of peaks
 
         //visualise a segment of new synthesised tremolo sound
-        double[] sample = SignalUtilis.smallSample(tremolo, 0.05);
-        SignalUtilis.visualizeSignal(sample,1700,550,5,true);
+        double[] sample = SignalUtils.smallSample(tremolo, 0.05);
+        SignalUtils.visualizeSignal(sample,1700,550,5,true);
 
         StdAudio.play(tremolo);
 
         //try synthesising a vowel-like double-frequency-d sound
-        double[] sound3 = SignalUtilis.generateSimpleSinusoid(3.0, 200, 0);
-        double[] sound4 = SignalUtilis.generateSimpleSinusoid(3.0, 1000, 0);
+        double[] sound3 = SignalUtils.generateSimpleSinusoid(3.0, 200, 0);
+        double[] sound4 = SignalUtils.generateSimpleSinusoid(3.0, 1000, 0);
 
-        double[] ahLike = SignalUtilis.simpleConvolution(sound3,sound4,0);
+        double[] ahLike = SignalUtils.ringModulation(sound3,sound4,0);
 
-        ahLike = SignalUtilis.linearFade(ahLike,0,0.05,true);
-        ahLike = SignalUtilis.linearFade(ahLike,0.95,1,false);
+        ahLike = SignalUtils.linearFade(ahLike,0,0.05,true);
+        ahLike = SignalUtils.linearFade(ahLike,0.95,1,false);
 
-        sample = SignalUtilis.smallSample(ahLike, 0.05);
-        SignalUtilis.visualizeSignal(sample,1700,550,1,true);
+        sample = SignalUtils.smallSample(ahLike, 0.05);
+        SignalUtils.visualizeSignal(sample,1700,550,1,true);
 
         StdAudio.play(ahLike);
 
