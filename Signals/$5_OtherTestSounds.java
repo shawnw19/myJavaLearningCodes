@@ -1,6 +1,6 @@
 package Signals;
 
-import CommonUtils.SignalUtilis;
+import CommonUtils.SignalUtils;
 import IntroCS_Princeton.StdAudio;
 
 /*
@@ -22,8 +22,8 @@ public class $5_OtherTestSounds {
         double[] sound = generateSound(2);
 
         //visualise a segment of second type sound which is the most complex
-        double[]sample = SignalUtilis.smallSample(sound,0.02);
-        SignalUtilis.visualizeSignal(sample,1);
+        double[]sample = SignalUtils.smallSample(sound,0.02);
+        SignalUtils.visualizeSignal(sample,true);
 
         StdAudio.play(sound);
     }
