@@ -1,6 +1,6 @@
 package Person_Serialization;
-/* This is an example showing how to implement serialization
-  It is based on Data Abstraction and Problem Solving with Java: Walls and Mirrors 3rd Edition*/
+/*an example showing how to implement serialization,
+  based on Data Abstraction and Problem Solving with Java: Walls and Mirrors 3rd Edition*/
 
 import java.io.Serializable;
 
