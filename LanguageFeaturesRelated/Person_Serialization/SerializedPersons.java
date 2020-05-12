@@ -1,5 +1,6 @@
 package Person_Serialization;
-//The code is supplemented and corrected based on the design rationale
+/*The examples presents a function (not the best though) of querying
+information after serialisation of data*/
 
 import java.io.*;
 import java.util.ArrayList;
