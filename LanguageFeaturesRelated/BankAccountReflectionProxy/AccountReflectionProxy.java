@@ -1,6 +1,9 @@
 package BankAccount_Proxy;
 
-//another implementation using reflection
+/*using reflection to invoke methods.
+This is to demostrate the possibility of such a usage but
+in fact it is discouraged as being like a "method pointer".
+*/
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
