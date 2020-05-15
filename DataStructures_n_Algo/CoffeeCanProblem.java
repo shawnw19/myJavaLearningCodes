@@ -1,4 +1,3 @@
-package Chp00;
 
 /*
 the famous Coffee Can Problem, [Programming Pearls ed1] column4
