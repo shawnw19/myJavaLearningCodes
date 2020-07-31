@@ -1,0 +1,32 @@
+/home/shawn/Desktop/idea-IU-192.6603.28/jbr/bin/java -javaagent:/home/shawn/Desktop/idea-IU-192.6603.28/lib/idea_rt.jar=38491:/home/shawn/Desktop/idea-IU-192.6603.28/bin -Dfile.encoding=UTF-8 -classpath /home/shawn/IdeaProjects/Streib/out/production/Streib:/media/shawn2/Java_study/commons-math3-3.6.1/commons-math3-3.6.1.jar:/media/shawn2/Java_study/commons-math3-3.6.1/commons-math3-3.6.1-tests.jar:/media/shawn2/Java_study/commons-math3-3.6.1/commons-math3-3.6.1-tools.jar:/media/shawn2/Java_study/commons-math3-3.6.1/commons-math3-3.6.1-javadoc.jar:/media/shawn2/Java_study/commons-math3-3.6.1/commons-math3-3.6.1-sources.jar:/media/shawn2/Java_study/commons-math3-3.6.1/commons-math3-3.6.1-test-sources.jar:/media/shawn2/Java_study/commons-lang3-3.10/commons-lang3-3.10.jar:/media/shawn2/Java_study/commons-lang3-3.10/commons-lang3-3.10-tests.jar:/media/shawn2/Java_study/commons-lang3-3.10/commons-lang3-3.10-javadoc.jar:/media/shawn2/Java_study/commons-lang3-3.10/commons-lang3-3.10-sources.jar:/media/shawn2/Java_study/commons-lang3-3.10/commons-lang3-3.10-test-sources.jar LanguageFeaturesRelated.PointMoving_HotDeployment.PointClient
+
+Point at 0,0
+MOVE1, RELOAD, or EXIT
+move1
+Point at 1,0
+MOVE1, RELOAD, or EXIT
+move1
+Point at 2,0
+MOVE1, RELOAD, or EXIT
+move1
+Point at 3,0
+MOVE1, RELOAD, or EXIT
+reload
+Point at 3,0
+MOVE1, RELOAD, or EXIT
+reload
+Point at 3,0
+MOVE1, RELOAD, or EXIT
+reload
+Point at 3,0
+MOVE1, RELOAD, or EXIT
+move1
+Point at 4,1
+MOVE1, RELOAD, or EXIT
+move1
+Point at 5,2
+MOVE1, RELOAD, or EXIT
+move1
+Point at 6,3
+MOVE1, RELOAD, or EXIT
+exit
