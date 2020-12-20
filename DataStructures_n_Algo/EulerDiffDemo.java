@@ -1,5 +1,3 @@
-package Chp00;
-
 import IntroCS_Princeton.StdDraw;
 
 import java.util.Arrays;
